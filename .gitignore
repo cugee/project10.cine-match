@@ -1,0 +1,27 @@
+# Dependencies and Expo generated files
+node_modules/
+.expo/
+.expo-shared/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Build and tooling output
+dist/
+build/
+coverage/
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large local data files
+*.sqlite
+*.sqlite3
+*.db
